@@ -1,3 +1,4 @@
+
 # EmpresaAerea
 
 Este repositório contém o backend de uma aplicação web para gerenciamento de operações de uma companhia aérea, implementado com uma arquitetura de microsserviços utilizando Spring Boot (Java). O padrão de projeto SAGA é empregado para a comunicação entre os microsserviços, e um API Gateway foi desenvolvido em Node.js.
@@ -64,3 +65,56 @@ A comunicação entre os microsserviços é coordenada pelo padrão de projeto S
    ```bash
    git clone https://github.com/nooneknowws/EmpresaAerea.git
    cd EmpresaAerea
+   ```
+
+3. **Construir e Iniciar os Serviços**:
+   Execute o script de inicialização:
+   ```bash
+   ./init.sh
+   ```
+   Este script compilará os microsserviços e iniciará todos os containers Docker necessários.
+
+## Uso
+
+Após a instalação, a aplicação estará acessível através do **API Gateway**. Consulte a documentação específica de cada microsserviço para detalhes sobre os endpoints disponíveis e suas funcionalidades.  
+
+### Exemplo de Requisição
+
+Para criar um novo cliente, envie uma requisição **POST** para o endpoint `/clientes`:  
+
+```bash
+curl -X POST http://localhost:<PORTA_GATEWAY>/clientes -H "Content-Type: application/json" -d '{
+    "nome": "João da Silva",
+    "email": "joao.silva@email.com",
+    "telefone": "(11) 91234-5678"
+}'
+```
+
+Certifique-se de substituir `<PORTA_GATEWAY>` pela porta configurada no **API Gateway**.  
+
+## Contribuição
+
+Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
+
+1. Faça um fork deste repositório.
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`).
+3. Commit suas alterações (`git commit -m 'Adiciona nova feature'`).
+4. Faça push para a branch (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
+
+Antes de contribuir, verifique se suas alterações seguem o estilo e as práticas já estabelecidas no projeto.
+
+## Licença
+
+Este projeto está licenciado sob a **Licença MIT**. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contato
+
+Para mais informações ou suporte, entre em contato com o mantenedor do projeto:
+
+- **GitHub**: [nooneknowws](https://github.com/nooneknowws)
+- **Email**: [thalysonbruck@hotmail.com](mailto:thalysonbruck@hotmail.com)
+
+---
+
+Caso tenha dúvidas ou sugestões, sinta-se à vontade para abrir uma **Issue** neste repositório.
