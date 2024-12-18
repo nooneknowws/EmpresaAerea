@@ -1,0 +1,47 @@
+{
+  "clientes": [
+    {
+      "id": "f4ea",
+      "cpf": "12345678910",
+      "nome": "",
+      "email": "teste@mail.com",
+      "senha": "password",
+      "endereco": {
+        "cep": 83562006,
+        "logradouro": "Rua Alcides Gomes da Silva",
+        "numero": 123,
+        "complemento": "123",
+        "bairro": "Santa Maria",
+        "cidade": "Itaperuçu",
+        "estado": "PR"
+      },
+      "telefone": "123456789",
+      "milhas": {
+        "quantidade": 595.8,
+        "dataHoraTransacao": "2024-10-10T18:46:51.860Z",
+        "descricao": "COMPRA DE MILHAS",
+        "entradaSaida": "entrada"
+      }
+    },
+    {
+      "id": "383b",
+      "cpf": "10594113938",
+      "nome": "thalyson bruck andreatta",
+      "email": "thalysonbruck@hotmail.com",
+      "senha": "4678",
+      "endereco": {
+        "cep": 83420000,
+        "logradouro": "rosemiro alves de paula",
+        "numero": 91,
+        "complemento": "casa 2",
+        "bairro": "jd patricia",
+        "cidade": "Quatro Barras",
+        "estado": "PR"
+      },
+      "telefone": "41920032665",
+      "milhas": {
+        "quantidade": 0
+      }
+    }
+  ]
+}

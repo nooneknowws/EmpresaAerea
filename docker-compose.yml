@@ -1,0 +1,63 @@
+services:
+  auth:
+    build:
+      context: ./MS auth/Auth
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    image: auth
+    container_name: ms-auth
+
+  cliente:
+    build:
+      context: ./MS Cliente/Clientes
+      dockerfile: Dockerfile
+    ports:
+      - "5003:5003"
+    image: cliente
+    container_name: ms-cliente
+
+  funcionarios:
+    build:
+      context: ./MS Funcionarios/funcionarios
+      dockerfile: Dockerfile
+    ports:
+      - "5007:5007"
+    image: funcionarios
+    container_name: ms-func
+
+  reserva:
+    build:
+      context: ./MS Reserva/MSReserva
+      dockerfile: Dockerfile
+    ports:
+      - "5005:5005"
+    image: reserva
+    container_name: ms-reserva
+
+  voos:
+    build:
+      context: ./MS voos/voos
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
+    image: voos
+    container_name: ms-voos
+
+  gateway:
+    build:
+      context: ./Gateway
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    image: api
+    container_name: api-gateway
+
+  saga:
+    build:
+      context: ./SAGA
+      dockerfile: Dockerfile
+    ports:
+      - "5010:5010"
+    image: saga
+    container_name: dac-saga

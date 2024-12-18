@@ -1,0 +1,244 @@
+{
+  "voos": [
+    {
+      "id": "1",
+      "codigoVoo": "GRU123",
+      "dataHoraPartida": "2024-12-01T09:00:00",
+      "origem": {
+        "id": 1,
+        "codigo": "GRU",
+        "nome": "Aeroporto Internacional de Guarulhos",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "id": 2,
+        "codigo": "GIG",
+        "nome": "Aeroporto Internacional do Galeão",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "pais": "Brasil"
+      },
+      "valorPassagem": 350,
+      "quantidadeAssentos": 180,
+      "quantidadePassageiros": 120
+    },
+    {
+      "id": "2",
+      "codigoVoo": "GIG124",
+      "dataHoraPartida": "2024-12-02T14:30:00",
+      "origem": {
+        "id": 2,
+        "codigo": "GIG",
+        "nome": "Aeroporto Internacional do Galeão",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "id": 3,
+        "codigo": "BSB",
+        "nome": "Aeroporto Internacional de Brasília",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "pais": "Brasil"
+      },
+      "valorPassagem": 450,
+      "quantidadeAssentos": 200,
+      "quantidadePassageiros": 180
+    },
+    {
+      "id": "3",
+      "codigoVoo": "BSB125",
+      "dataHoraPartida": "2024-12-03T18:00:00",
+      "origem": {
+        "id": 3,
+        "codigo": "BSB",
+        "nome": "Aeroporto Internacional de Brasília",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "id": 4,
+        "codigo": "POA",
+        "nome": "Aeroporto Internacional Salgado Filho",
+        "cidade": "Porto Alegre",
+        "estado": "RS",
+        "pais": "Brasil"
+      },
+      "valorPassagem": 500,
+      "quantidadeAssentos": 150,
+      "quantidadePassageiros": 100
+    },
+    {
+      "id": "4",
+      "codigoVoo": "POA126",
+      "dataHoraPartida": "2024-12-04T10:00:00",
+      "origem": {
+        "id": 4,
+        "codigo": "POA",
+        "nome": "Aeroporto Internacional Salgado Filho",
+        "cidade": "Porto Alegre",
+        "estado": "RS",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "id": 1,
+        "codigo": "GRU",
+        "nome": "Aeroporto Internacional de Guarulhos",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "pais": "Brasil"
+      },
+      "valorPassagem": 400,
+      "quantidadeAssentos": 170,
+      "quantidadePassageiros": 160
+    },
+    {
+      "id": "5",
+      "codigoVoo": "SSA127",
+      "dataHoraPartida": "2024-12-05T22:30:00",
+      "origem": {
+        "id": 5,
+        "codigo": "SSA",
+        "nome": "Aeroporto Internacional de Salvador",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "id": 2,
+        "codigo": "GIG",
+        "nome": "Aeroporto Internacional do Galeão",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "pais": "Brasil"
+      },
+      "valorPassagem": 600,
+      "quantidadeAssentos": 200,
+      "quantidadePassageiros": 190
+    },
+    {
+      "id": "6",
+      "codigoVoo": "GRU128",
+      "dataHoraPartida": "2024-12-06T11:15:00",
+      "origem": {
+        "id": 1,
+        "codigo": "GRU",
+        "nome": "Aeroporto Internacional de Guarulhos",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "id": 3,
+        "codigo": "BSB",
+        "nome": "Aeroporto Internacional de Brasília",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "pais": "Brasil"
+      },
+      "valorPassagem": 500,
+      "quantidadeAssentos": 180,
+      "quantidadePassageiros": 150
+    },
+    {
+      "id": "7",
+      "codigoVoo": "GIG129",
+      "dataHoraPartida": "2024-12-07T07:00:00",
+      "origem": {
+        "id": 2,
+        "codigo": "GIG",
+        "nome": "Aeroporto Internacional do Galeão",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "id": 5,
+        "codigo": "SSA",
+        "nome": "Aeroporto Internacional de Salvador",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "pais": "Brasil"
+      },
+      "valorPassagem": 550,
+      "quantidadeAssentos": 160,
+      "quantidadePassageiros": 140
+    },
+    {
+      "id": "8",
+      "codigoVoo": "BSB130",
+      "dataHoraPartida": "2024-12-08T16:00:00",
+      "origem": {
+        "id": 3,
+        "codigo": "BSB",
+        "nome": "Aeroporto Internacional de Brasília",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "id": 4,
+        "codigo": "POA",
+        "nome": "Aeroporto Internacional Salgado Filho",
+        "cidade": "Porto Alegre",
+        "estado": "RS",
+        "pais": "Brasil"
+      },
+      "valorPassagem": 600,
+      "quantidadeAssentos": 180,
+      "quantidadePassageiros": 170
+    },
+    {
+      "id": "9",
+      "codigoVoo": "SSA131",
+      "dataHoraPartida": "2024-12-09T19:00:00",
+      "origem": {
+        "id": 5,
+        "codigo": "SSA",
+        "nome": "Aeroporto Internacional de Salvador",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "id": 1,
+        "codigo": "GRU",
+        "nome": "Aeroporto Internacional de Guarulhos",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "pais": "Brasil"
+      },
+      "valorPassagem": 550,
+      "quantidadeAssentos": 200,
+      "quantidadePassageiros": 180
+    },
+    {
+      "id": "10",
+      "codigoVoo": "POA132",
+      "dataHoraPartida": "2024-12-10T15:30:00",
+      "origem": {
+        "id": 4,
+        "codigo": "POA",
+        "nome": "Aeroporto Internacional Salgado Filho",
+        "cidade": "Porto Alegre",
+        "estado": "RS",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "id": 3,
+        "codigo": "BSB",
+        "nome": "Aeroporto Internacional de Brasília",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "pais": "Brasil"
+      },
+      "valorPassagem": 450,
+      "quantidadeAssentos": 150,
+      "quantidadePassageiros": 130
+    }
+  ]
+}

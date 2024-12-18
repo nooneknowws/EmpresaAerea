@@ -1,0 +1,166 @@
+{
+  "reservas": [
+    {
+      "id": "1",
+      "dataHora": "2024-12-01T09:00:00",
+      "origem": {
+        "id": 1,
+        "codigo": "GRU",
+        "nome": "Aeroporto Internacional de Guarulhos",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "id": 2,
+        "codigo": "GIG",
+        "nome": "Aeroporto Internacional do Galeão",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "pais": "Brasil"
+      },
+      "valor": 350,
+      "milhas": 5000,
+      "status": "Pendente",
+      "voo": {
+        "id": "1",
+        "codigoVoo": "GRU123",
+        "dataHoraPartida": "2024-12-01T09:00:00",
+        "origem": {
+          "id": 1,
+          "codigo": "GRU",
+          "nome": "Aeroporto Internacional de Guarulhos",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "pais": "Brasil"
+        },
+        "destino": {
+          "id": 2,
+          "codigo": "GIG",
+          "nome": "Aeroporto Internacional do Galeão",
+          "cidade": "Rio de Janeiro",
+          "estado": "RJ",
+          "pais": "Brasil"
+        },
+        "valorPassagem": 350,
+        "quantidadeAssentos": 180,
+        "quantidadePassageiros": 120
+      },
+      "cliente": {
+        "id": "f4ea",
+        "cpf": "12345678910",
+        "nome": "Teste Cliente",
+        "email": "teste@mail.com",
+        "telefone": "123456789"
+      }
+    },
+    {
+      "id": "2",
+      "dataHora": "2024-12-05T14:00:00",
+      "origem": {
+        "id": 3,
+        "codigo": "BSB",
+        "nome": "Aeroporto Internacional de Brasília",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "id": 4,
+        "codigo": "POA",
+        "nome": "Aeroporto Internacional Salgado Filho",
+        "cidade": "Porto Alegre",
+        "estado": "RS",
+        "pais": "Brasil"
+      },
+      "valor": 450,
+      "milhas": 6000,
+      "status": "Finalizada",
+      "voo": {
+        "id": "2",
+        "codigoVoo": "BSB125",
+        "dataHoraPartida": "2024-12-05T14:00:00",
+        "origem": {
+          "id": 3,
+          "codigo": "BSB",
+          "nome": "Aeroporto Internacional de Brasília",
+          "cidade": "Brasília",
+          "estado": "DF",
+          "pais": "Brasil"
+        },
+        "destino": {
+          "id": 4,
+          "codigo": "POA",
+          "nome": "Aeroporto Internacional Salgado Filho",
+          "cidade": "Porto Alegre",
+          "estado": "RS",
+          "pais": "Brasil"
+        },
+        "valorPassagem": 450,
+        "quantidadeAssentos": 150,
+        "quantidadePassageiros": 130
+      },
+      "cliente": {
+        "id": "f4ea",
+        "cpf": "12345678910",
+        "nome": "Teste Cliente",
+        "email": "teste@mail.com",
+        "telefone": "123456789"
+      }
+    },
+    {
+      "id": "3",
+      "dataHora": "2024-12-10T19:00:00",
+      "origem": {
+        "id": 5,
+        "codigo": "SSA",
+        "nome": "Aeroporto Internacional de Salvador",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "id": 1,
+        "codigo": "GRU",
+        "nome": "Aeroporto Internacional de Guarulhos",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "pais": "Brasil"
+      },
+      "valor": 550,
+      "milhas": 8000,
+      "status": "Cancelada",
+      "voo": {
+        "id": "3",
+        "codigoVoo": "SSA131",
+        "dataHoraPartida": "2024-12-10T19:00:00",
+        "origem": {
+          "id": 5,
+          "codigo": "SSA",
+          "nome": "Aeroporto Internacional de Salvador",
+          "cidade": "Salvador",
+          "estado": "BA",
+          "pais": "Brasil"
+        },
+        "destino": {
+          "id": 1,
+          "codigo": "GRU",
+          "nome": "Aeroporto Internacional de Guarulhos",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "pais": "Brasil"
+        },
+        "valorPassagem": 550,
+        "quantidadeAssentos": 200,
+        "quantidadePassageiros": 180
+      },
+      "cliente": {
+        "id": "f4ea",
+        "cpf": "12345678910",
+        "nome": "Teste Cliente",
+        "email": "teste@mail.com",
+        "telefone": "123456789"
+      }
+    }
+  ]
+}
